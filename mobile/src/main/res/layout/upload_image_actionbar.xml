@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/colorAccentLight"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/uploadImgBack"
+            style="@style/backArraow"
+            android:layout_alignParentLeft="true"
+            android:padding="@dimen/mpt_size_20" />
+
+        <TextView
+            android:id="@+id/actionbar_textview"
+            style="@style/headingTxt"
+            android:text="@string/menu_item_select_image" />
+    </RelativeLayout>
+</LinearLayout>

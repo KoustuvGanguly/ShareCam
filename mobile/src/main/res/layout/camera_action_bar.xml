@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/colorAccentLight"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ImageButton
+            style="@style/backArraow"
+            android:id="@+id/camCrossBtn"
+            android:padding="@dimen/mpt_size_20"
+            android:src="@drawable/icon_cross_white" />
+
+        <TextView
+            style="@style/headingTxt"
+            android:id="@+id/actionbar_textview"
+            android:text="@string/camera_btn" />
+    </RelativeLayout>
+</LinearLayout>
